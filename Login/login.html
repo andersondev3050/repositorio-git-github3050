@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Este é a declaração do tipo de documento, que neste caso é HTML -->
+
+<html lang="pt-br">
+<!-- O html tag é a raiz elemento de um HTML page. Ele define o todo HTML documento -->
+
+<head>
+    <!-- O head element contém informações meta sobre o HTML documento -->
+    <meta charset="UTF-8">
+    <!-- O charset atributo especifica o conjunto de caracteres para o HTML documento -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- O viewport meta tag dá instruções ao navegador sobre como controlar as dimensões e escalonamento do documento -->
+
+    <title>Formulário de Login em HTML e CSS</title>
+    <!-- O title element especifica um título para o documento -->
+
+    <link rel="stylesheet" href="login.css">
+    <!-- O link element é usado para vincular arquivos CSS externos ao HTML documento -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- O link element é usado para vincular arquivos CSS externos ao HTML documento -->
+</head>
+
+<body>
+    <!-- O body element define o corpo do documento, e é um container para todos os conteúdos visíveis, como títulos, parágrafos, imagens, hiperlinks, tabelas, listas, etc. -->
+
+    <div class="wrapper">
+        <!-- Um div elemento é um container usado para agrupar elementos HTML -->
+
+        <form action="">
+            <!-- O form element define um formulário HTML para a entrada do usuário -->
+
+            <h1>Faça login aqui !!!</h1>
+            <!-- O h1 elemento define um grande título -->
+
+            <div class="input-box">
+                <!-- Um div elemento é um container usado para agrupar elementos HTML -->
+
+                <input type="text" placeholder="Usuário" required>
+                <!-- O input elemento é usado para criar controles interativos para formulários web -->
+
+                <i class='bx bxs-user-check'></i>
+                <!-- O i elemento representa um conteúdo de frase. É usado comumente para ícones -->
+            </div>
+
+            <div class="input-box">
+                <!-- Um div elemento é um container usado para agrupar elementos HTML -->
+
+                <input type="password" placeholder="Senha" required>
+                <!-- O input elemento é usado para criar controles interativos para formulários web -->
+
+                <i class='bx bxs-lock-alt'></i>
+                <!-- O i elemento representa um conteúdo de frase. É usado comumente para ícones -->
+            </div>
+
+            <div class="remember=forgot">
+                <!-- Um div elemento é um container usado para agrupar elementos HTML -->
+
+                <label> <input type="checkbox"> Lembrar-me </label>
+                <!-- O label elemento representa uma legenda para um item na interface do usuário -->
+
+                <a href="#"> Esqueceu a senha? </a>
+                <!-- O a elemento define um hiperlink -->
+            </div>
+
+            <button  type="submit" class="btn" type="submit"> Entrar </button>
+            <!-- O button elemento define um botão clicável -->
+
+            <div class="register-link">
+                <!-- Um div elemento é um container usado para agrupar elementos HTML -->
+
+                <p>Ainda não tem uma conta? <a href="#">Cadastre-se</a></p>
+                <!-- O p elemento define um parágrafo -->
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
